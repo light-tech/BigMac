@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 9b c4 d0 2a f4 0b 60-a5 11 76 7a 7d 8d 2d aa</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">BigMac.vmx</vmxPathName></VM><tools-install-info><installError>0</installError><updateCounter>13</updateCounter></tools-install-info></Foundry>

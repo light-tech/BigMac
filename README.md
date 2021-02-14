@@ -12,7 +12,8 @@ smc.version = "0"
 according to [this article](https://www.wikigain.com/install-macos-big-sur-on-vmware-windows-pc/).
 
 **Tip #1**: On Windows, use [Auto Locker](https://github.com/paolo-projects/auto-unlocker/releases) instead of (actually as recommended by) [macOS Unlocker V3 for VMware](https://github.com/paolo-projects/unlocker) for a smooth operation.
-Ask somebody with a Mac to help with downloading and [creating installation image](https://www.wikigain.com/create-macos-big-sur-iso-image/) of MacOS.
+Ask somebody with a Mac to help with downloading and [creating installation image](https://www.wikigain.com/create-macos-big-sur-iso-image/) of MacOS;
+or see [here](https://mrmacintosh.com/how-to-download-macos-catalina-mojave-or-high-sierra-full-installers/) for different methods.
 Then in the future, you can use the Virtual Machine to download MacOS yourself.
 
 **Tip #2**: Nowadays, you should have plenty of RAM. So avoid memory swapping:
@@ -35,3 +36,4 @@ For example: We have
  * `BigMacLLVM.vmdk` to [compile LLVM](https://github.com/light-tech/LLVM-On-iOS/)
 
 This way, we can keep each `vmdk` size managable; discarding and replacing them as desired.
+Also, we could avoid the out-of-space issue. For example, if your VMDK is 80GB and you installed both MacOS and Xcode on it, you will not have enough space to upgrade the OS.

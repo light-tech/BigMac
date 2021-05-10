@@ -1,3 +1,5 @@
 *.vmdk
 *.nvram
+*.log
 Shared/
+$RECYCLE.BIN
